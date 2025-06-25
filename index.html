@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tinyhomes 3D Print Catalog</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+    h1 { text-align: center; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; border-radius: 1rem; box-shadow: 0 2px 8px #ddd; padding: 1rem; display: flex; flex-direction: column; align-items: center; }
+    .card img { width: 180px; height: 180px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem; }
+    .card h2 { font-size: 1.2rem; margin: 0.5rem 0; }
+    .card p { font-size: 1rem; margin: 0.25rem 0; }
+    .order-btn { background: #6d9eeb; color: #fff; padding: 0.5rem 1.5rem; border: none; border-radius: 0.5rem; cursor: pointer; margin-top: 0.5rem; font-size: 1rem; text-decoration: none; }
+    .order-btn:hover { background: #3c78d8; }
+    @media (max-width: 500px) { .card img { width: 100%; height: auto; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>tinyhomes 3D Printing Catalog</h1>
+    <div class="grid">
+      <!-- Example product card; copy and edit for each product -->
+      <div class="card">
+        <img src="product1.jpg" alt="Product Name">
+        <h2>Product Name</h2>
+        <p>Short description of the product, color/size options if needed.</p>
+        <p><b>Price:</b> $XX</p>
+        <a class="order-btn" href="YOUR_GOOGLE_FORM_LINK" target="_blank">Order Now</a>
+      </div>
+      <!-- Duplicate above block for each product -->
+    </div>
+    <p style="text-align:center; margin-top:2rem;">Follow us on <a href="https://instagram.com/tinyhomes" target="_blank">Instagram</a></p>
+  </div>
+</body>
+</html>
